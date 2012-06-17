@@ -1,0 +1,2 @@
+- Warning if `gcc`, `swig`, `zlib` etc. is not installed
+- Support for Upstart, Systemd etc.
