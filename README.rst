@@ -1,8 +1,12 @@
 Buildout for Salt
 =================
 
-Basic Installation
-------------------
+Basic Installation using the offline tarball
+--------------------------------------------
+
+If you have downloaded the `offline tarball from GitHub
+<https://github.com/baijum/salt-buildout/downloads>`_  follow
+instruction in this section.
 
 1. Using the system package management tool, install `gcc`,
    `swig`, `zlib` and other basic development libraries.
@@ -18,6 +22,35 @@ Basic Installation
    ::
 
      ./usr/bin/python2.7 install.py
+
+
+Basic Installation using the online buildout
+--------------------------------------------
+
+This instruction is for those who trying to install Salt directly
+from the clone of github repo.
+
+1. Using the system package management tool, install `gcc`,
+   `swig`, `zlib` and other basic development libraries.
+
+2. Run `installpy27.sh`
+
+   ::
+
+     ./installpy27.sh
+
+3. Run `bootstrap..py`
+
+   ::
+
+     ./usr/bin/python2.7 bootstrap.py
+
+4. Run `buildout`
+
+   ::
+
+     ./bin/buildout -c linux.cfg
+
 
 Running Master
 --------------
