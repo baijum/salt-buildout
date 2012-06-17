@@ -1,10 +1,10 @@
 Buildout for Salt
 =================
 
-Basic Installation using the offline tarball
---------------------------------------------
+Basic Installation using the offline buildout
+---------------------------------------------
 
-If you have downloaded the `offline tarball from GitHub
+If you have downloaded the `offline buildout tarball from GitHub
 <https://github.com/baijum/salt-buildout/downloads>`_  follow
 instruction in this section.
 
