@@ -67,7 +67,7 @@ Running Master
 
    ::
 
-     ./bin/salt-master -c etc/master
+     ./bin/salt-master -c etc/master -l debug
 
 
 Running Minion
@@ -85,4 +85,4 @@ Running Minion
 
    ::
 
-     ./bin/salt-minion -c etc/minion
+     ./bin/salt-minion -c etc/minion -l debug
